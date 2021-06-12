@@ -6,6 +6,7 @@
 #include <QMessageBox>
 #include <QPainter>
 #include <QMouseEvent>// for QDragEnterEvent and QDropEvent
+#include <QMimeData>
 #include <QUrl>
 #include <cmath>
 
@@ -14,7 +15,9 @@
 #define PLUGIN_MENU "Decorate/Add Photo Frame"
 #define PLUGIN_VERSION "1.0"
 
-Q_EXPORT_PLUGIN2(photo-frame, ToolPlugin);
+#if QT_VERSION < QT_VERSION_CHECK(5, 0, 0)
+    Q_EXPORT_PLUGIN2(photo-frame, ToolPlugin);
+#endif
 
 #define MIN(a,b) ((a)<(b) ? (a):(b))
 

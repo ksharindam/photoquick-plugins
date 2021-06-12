@@ -1,2 +1,2 @@
 TEMPLATE = subdirs
-SUBDIRS = grayscale-local stretch-histogram tone-mapping
+SUBDIRS = grayscale-local stretch-histogram

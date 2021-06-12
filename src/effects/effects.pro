@@ -1,2 +1,2 @@
 TEMPLATE = subdirs
-SUBDIRS = kuwahara
+SUBDIRS = kuwahara tone-mapping

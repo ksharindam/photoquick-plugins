@@ -10,14 +10,16 @@
 #define PLUGIN_NAME "Tone Mapping"
 #define PLUGIN_VERSION "1.0"
 
-Q_EXPORT_PLUGIN2(tone-mapping, FilterPlugin);
+#if QT_VERSION < QT_VERSION_CHECK(5, 0, 0)
+    Q_EXPORT_PLUGIN2(tone-mapping, FilterPlugin);
+#endif
 
 void toneMapping_mantiuk06(QImage &img, float contrast=0.1, float saturation=0.8);
 
 QString
 FilterPlugin:: menuItem()
 {
-    return QString("Filters/HDR Effect");
+    return QString("Filters/Effects/HDR Effect");
 }
 
 void
