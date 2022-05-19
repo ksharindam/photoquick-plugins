@@ -8,8 +8,8 @@ INCLUDEPATH += $$DESTDIR
 TEMPLATE        = lib
 CONFIG         += plugin
 QMAKE_CXXFLAGS  = -std=c++11 -fopenmp
-QMAKE_LFLAGS   += -s -lgomp
-LIBS           +=
+QMAKE_LFLAGS   += -s
+LIBS           += -lgomp
 
 QT += widgets
 
