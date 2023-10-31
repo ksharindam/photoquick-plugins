@@ -4,10 +4,21 @@
 A few set of plugins for the viewer [photoquick](https://github.com/ksharindam/photoquick).  
 Check [here](https://github.com/ImageProcessing-ElectronicPublications/photoquick-plugins) full set of plugins available.  
 
+
+### Available Plugins
+* grayscale-local  
+* stretch-histogram  
+* kuwahara  
+* tone-mapping  
+* photoframe  
+* histogram-viewer  
+* barcode-generator  
+* pixart-scaler  
+
 ### Runtime Dependencies
 * libqtcore4  
 * libqtgui4  
-* libgomp1
+* libgomp1  
 
 ### Build 
 
