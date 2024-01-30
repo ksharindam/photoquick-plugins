@@ -1,5 +1,5 @@
 /*  This file is a part of PhotoQuick Plugins project, and is GNU GPLv3 licensed
-    Copyright (C) 2020 Arindam Chaudhuri <ksharindam@gmail.com>
+    Copyright (C) 2020-2024 Arindam Chaudhuri <ksharindam@gmail.com>
 */
 /* Color to grayscale conversion, uses envelopes formed with the STRESS approach
     to perform local color-difference preserving grayscale generation.

@@ -1,6 +1,6 @@
 ; HM NIS Edit Wizard helper defines
 !define PROG_NAME "PhotoQuick Plugins"
-!define PROG_VERSION "1.0.0"
+!define PROG_VERSION "1.1.0"
 !define PROG_PUBLISHER "Arindamsoft"
 !define PROG_ICON "photoquick-plugins.ico"
 !define ICON_PATH "${PROG_ICON}"
@@ -91,6 +91,10 @@ Section "Tone Mapping" SecTonMap
   File "${BUILDDIR}\tone-mapping.dll"
 SectionEnd
 
+Section "Barcode Generator" SecBarcodeGen
+  File "${BUILDDIR}\barcode-generator.dll"
+SectionEnd
+
 Section "Histogram Viewer" SecHistView
   File "${BUILDDIR}\histogram-viewer.dll"
 SectionEnd
@@ -126,6 +130,7 @@ Section Uninstall
   Delete "$INSTDIR\kuwahara.dll"
   Delete "$INSTDIR\tone-mapping.dll"
   Delete "$INSTDIR\histogram-viewer.dll"
+  Delete "$INSTDIR\barcode-generator.dll"
   Delete "$INSTDIR\pixart-scaler.dll"
   Delete "$INSTDIR\${PROG_ICON}"
   RMDir "$INSTDIR"

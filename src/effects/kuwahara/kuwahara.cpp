@@ -1,5 +1,5 @@
 /*  This file is a part of PhotoQuick Plugins project, and is GNU GPLv3 licensed
-    Copyright (C) 2020-2021 Arindam Chaudhuri <ksharindam@gmail.com>
+    Copyright (C) 2020-2024 Arindam Chaudhuri <ksharindam@gmail.com>
 */
 #include "kuwahara.h"
 #include <cmath>
