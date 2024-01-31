@@ -1,3 +1,9 @@
+![License](https://img.shields.io/github/license/ksharindam/photoquick-plugins)
+![Release](https://img.shields.io/github/v/release/ksharindam/photoquick-plugins)
+![Release Date](https://img.shields.io/github/release-date/ksharindam/photoquick-plugins)
+![Downloads Total](https://img.shields.io/github/downloads/ksharindam/photoquick-plugins/total)
+![Downloads Latest](https://img.shields.io/github/downloads/ksharindam/photoquick-plugins/latest/total)
+
 # PhotoQuick plugins
 
 ### Description
